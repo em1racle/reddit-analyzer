@@ -36,6 +36,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD4F985F2D03FAEF00D96260 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		AD4F98602D03FB3200D96260 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD4F98612D03FB9B00D96260 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
 		AD8417D02D03C1530035B624 = {
 			isa = PBXGroup;
 			children = (
@@ -57,12 +78,11 @@
 			children = (
 				AD8418022D03C1830035B624 /* App */,
 				AD8417ED2D03C15F0035B624 /* ContentView.swift */,
-				AD8418032D03C1840035B624 /* Models */,
+				AD4F98602D03FB3200D96260 /* Models */,
 				AD8418042D03C1860035B624 /* Services */,
-				AD8418012D03C1810035B624 /* Screens */,
+				AD4F985F2D03FAEF00D96260 /* Screens */,
 				AD8418062D03C29D0035B624 /* Resources */,
-				AD8418072D03C2F90035B624 /* Storage */,
-				AD8418082D03C31E0035B624 /* NavigationManager */,
+				AD4F98612D03FB9B00D96260 /* Storage */,
 				AD8417F72D03C1610035B624 /* Preview Content */,
 			);
 			path = "reddit-analyzer";
@@ -76,26 +96,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		AD8418012D03C1810035B624 /* Screens */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Screens;
-			sourceTree = "<group>";
-		};
 		AD8418022D03C1830035B624 /* App */ = {
 			isa = PBXGroup;
 			children = (
 				AD8417EE2D03C15F0035B624 /* reddit_analyzerApp.swift */,
 			);
 			path = App;
-			sourceTree = "<group>";
-		};
-		AD8418032D03C1840035B624 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		AD8418042D03C1860035B624 /* Services */ = {
@@ -113,20 +119,6 @@
 				AD8417EC2D03C15F0035B624 /* Assets.xcassets */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		AD8418072D03C2F90035B624 /* Storage */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Storage;
-			sourceTree = "<group>";
-		};
-		AD8418082D03C31E0035B624 /* NavigationManager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = NavigationManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,6 +331,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"reddit-analyzer/Preview Content\"";
+				DEVELOPMENT_TEAM = 793UBL27S2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -368,6 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"reddit-analyzer/Preview Content\"";
+				DEVELOPMENT_TEAM = 793UBL27S2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
