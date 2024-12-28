@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		872E55252D1F5BB600A8E261 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872E55242D1F5BB600A8E261 /* MainView.swift */; };
+		872E55282D208E4700A8E261 /* DownloadCSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872E55272D208E3B00A8E261 /* DownloadCSV.swift */; };
+		872E552A2D209AC000A8E261 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872E55292D209AA300A8E261 /* ChartsView.swift */; };
 		AD8417F12D03C15F0035B624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8417EC2D03C15F0035B624 /* Assets.xcassets */; };
 		AD8417F22D03C15F0035B624 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8417ED2D03C15F0035B624 /* ContentView.swift */; };
 		AD8417F32D03C15F0035B624 /* reddit_analyzerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8417EE2D03C15F0035B624 /* reddit_analyzerApp.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		872E55242D1F5BB600A8E261 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		872E55272D208E3B00A8E261 /* DownloadCSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadCSV.swift; sourceTree = "<group>"; };
+		872E55292D209AA300A8E261 /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
 		AD8417D92D03C1530035B624 /* reddit-analyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reddit-analyzer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8417EC2D03C15F0035B624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD8417ED2D03C15F0035B624 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,25 +42,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AD4F985F2D03FAEF00D96260 /* Screens */ = {
+		872E55212D1F5B3600A8E261 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				872E55242D1F5BB600A8E261 /* MainView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
 		};
-		AD4F98602D03FB3200D96260 /* Models */ = {
+		872E55262D208E2D00A8E261 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				872E55292D209AA300A8E261 /* ChartsView.swift */,
+				872E55272D208E3B00A8E261 /* DownloadCSV.swift */,
 			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		AD4F98612D03FB9B00D96260 /* Storage */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Storage;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		AD8417D02D03C1530035B624 = {
@@ -76,13 +78,12 @@
 		AD8417EF2D03C15F0035B624 /* reddit-analyzer */ = {
 			isa = PBXGroup;
 			children = (
+				872E55262D208E2D00A8E261 /* Model */,
+				872E55212D1F5B3600A8E261 /* Screens */,
 				AD8418022D03C1830035B624 /* App */,
 				AD8417ED2D03C15F0035B624 /* ContentView.swift */,
-				AD4F98602D03FB3200D96260 /* Models */,
 				AD8418042D03C1860035B624 /* Services */,
-				AD4F985F2D03FAEF00D96260 /* Screens */,
 				AD8418062D03C29D0035B624 /* Resources */,
-				AD4F98612D03FB9B00D96260 /* Storage */,
 				AD8417F72D03C1610035B624 /* Preview Content */,
 			);
 			path = "reddit-analyzer";
@@ -194,7 +195,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872E552A2D209AC000A8E261 /* ChartsView.swift in Sources */,
+				872E55252D1F5BB600A8E261 /* MainView.swift in Sources */,
 				AD8417F22D03C15F0035B624 /* ContentView.swift in Sources */,
+				872E55282D208E4700A8E261 /* DownloadCSV.swift in Sources */,
 				AD8417F32D03C15F0035B624 /* reddit_analyzerApp.swift in Sources */,
 				AD84180A2D03C3490035B624 /* Font.swift in Sources */,
 				AD84180C2D03C36C0035B624 /* DataService.swift in Sources */,
